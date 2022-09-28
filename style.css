@@ -1,0 +1,234 @@
+@font-face {
+    font-family: share-tech;
+    src: url('assets/ShareTech-Regular.ttf');
+}
+
+html
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1D1D1D;    
+}
+
+.motherContainer
+{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+.pixelArtContainer
+{
+    height: 240px;
+    width: 240px;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(8, 30px);
+}
+
+.pixel
+{
+    border: 1px solid white;
+}
+
+/* ----------------------------------------------- */
+
+.introContainer
+{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    margin-top: -75px;
+}
+
+.greeting
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.greetingText
+{
+    color: #FFFFFF;
+    font-family: share-tech;
+    font-size: 55px;
+}
+
+.description
+{
+    color: #FFFFFF;
+    font-family: share-tech;
+    font-size: 18px;
+    width: 320px;
+    margin-top: -40px;
+    text-align: justify;
+	text-justify:newspaper;
+    line-height: 20px;
+}
+
+/* ----------------------------------------------- */
+
+.techContainer
+{
+    width: 100%;
+    height: min-content;
+    display: grid;
+    justify-content: center;
+}
+
+.line1
+{
+    height: 95px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+label
+{
+    padding-bottom: 8px;
+}
+
+.img1
+{
+    width: 80px;
+    height: 70px;
+}
+
+.radius
+{
+    border-radius: 9px;
+}
+
+.html
+{
+    color: #FC490B;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.css
+{
+    color: #2196F3;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.js
+{
+    color: #FFDF00;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.ts
+{
+    color: #3178C6;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/* SECOND GRID LINE */
+
+.line2
+{
+    height: 75px;
+    width: 420px;
+    display: grid;
+    grid-template-columns: repeat(3, 75px);
+    justify-content: space-between;
+    margin-top: 14px;
+    margin-left: 40px;
+}
+
+.gridEl2
+{
+    height: 75px;
+}
+
+.img2
+{
+    width: 65px;
+    height: 55px;
+}
+
+.img2angular
+{
+    width: 75px;
+    height: 65px;
+    margin-top: -8px;
+}
+
+.ruby
+{
+    color: #A60003;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.angular
+{
+    color: #DD0031;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.figma
+{
+    color: #B659FF;
+    font-family: share-tech;
+    font-size: 16px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------- */
+
+.projects
+{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.projectsHeader
+{
+    color: #FFFFFF;
+    /* -webkit-text-stroke: 0.05px #3178C6; */
+    text-shadow: 3px 3px 2px #2b5f99;
+    font-family: share-tech;
+    font-size: 37px;
+}
+
+/* ----------------------------------------------- */
+
