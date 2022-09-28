@@ -232,3 +232,19 @@ label
 
 /* ----------------------------------------------- */
 
+.finalCenterer
+{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.projectStripContainer
+{
+    width: 900px;
+    height: 100px;
+    background-image: linear-gradient(to right,#61a3e9, #2b5f99 , #61a3e9);
+    border: 1px solid red;
+}
