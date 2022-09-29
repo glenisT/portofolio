@@ -3,6 +3,11 @@
     src: url('assets/ShareTech-Regular.ttf');
 }
 
+@keyframes projectSlider {
+    0%{margin-right: 0%;}
+    100%{margin-right: 200%;}
+}
+
 html
 {
     height: 100%;
@@ -239,6 +244,7 @@ label
     display: flex;
     justify-content: center;
     margin-top: -20px;
+    padding-bottom: 15px;
 }
 
 .projectStripContainer
@@ -246,5 +252,26 @@ label
     width: 900px;
     height: 100px;
     background-image: linear-gradient(to right,#61a3e9, #2b5f99 , #61a3e9);
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.projectsGrid
+{
+    height: 100px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(12, 150px);
+    align-content: center;
+    justify-content: space-between;
+    animation: projectSlider 10s linear infinite;
+}
+
+.project
+{
+    height: 80px;
+    width: 100px;
+    background-color: #F5F5F5;
 }
