@@ -27,7 +27,7 @@ html
 
 .pixelArtContainer
 {
-    height: 210px;
+    height: 240px;
     width: 270px;
     display: grid;
     grid-template-columns: repeat(9, 30px);
@@ -48,7 +48,7 @@ html
     height: min-content;
     display: flex;
     justify-content: center;
-    margin-top: -110px;
+    margin-top: -75px;
 }
 
 .greeting
@@ -365,6 +365,7 @@ label
 
 .hairShine
 {
+    background-color: #161616;
     box-shadow: 10px 0px 0px #141414, -10px 0px 0px #141414;
     z-index: 1;
 }
@@ -429,4 +430,51 @@ label
 .rotate
 {
     transform: rotate(-5deg);
+}
+
+/* ------------------------------------------------------------------ */
+
+.chestSection
+{
+    display: grid;
+    grid-template-rows: repeat(2);
+}
+
+.chest
+{
+    height: 10px;
+    width: 30px;
+    background-color: #ffdba6;
+    box-shadow: 10px 0px 0px #ffdba6, -10px 0px 0px #ffdba6;
+    z-index: 1;
+}
+
+.shirt
+{
+    height: 20px;
+    width: 30px;
+    box-shadow: 10px 0px 0px #f7f7f7, -10px 0px 0px #f7f7f7;
+    z-index: 1;
+}
+
+/* --------------------------------------------------------------------------- */
+
+.leftRounder
+{
+    border-top-left-radius: 5px;
+}
+
+.rightRounder
+{
+    border-top-right-radius: 5px;
+}
+
+.leftShoulder
+{
+    border-top-left-radius: 15px;
+}
+
+.rightShoulder
+{
+    border-top-right-radius: 15px;
 }
