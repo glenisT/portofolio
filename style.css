@@ -35,10 +35,10 @@ html
     /* border: 1px solid red; */
 }
 
-.pixel
+/* .pixel
 {
-    /* border: 1px solid white; */
-}
+    border: 1px solid white;
+} */
 
 /* ----------------------------------------------- */
 
@@ -400,4 +400,33 @@ label
 {
     background-color: #ca6740;
     height: 5px;
+}
+
+/* -------------------------------------------------------------- */
+
+.teeth
+{
+    height: 15px;
+    width: 40px;
+    margin-top: -2px;
+    margin-left: -5px;
+    background-color: #fdfdfd;
+    /* transform: perspective(2em) skewX(-10deg) rotate(-5deg); */
+    transform: perspective(0.8em) rotateX(-10deg);
+    z-index: 2;
+}
+
+.teeth::before
+{
+    content: '';
+    position: absolute;
+    height: 0.5px;
+    width: 40px;
+    background-color: #1D1D1D;
+    box-shadow: 0px 7px 0px #1d1d1d9a;
+}
+
+.rotate
+{
+    transform: rotate(-5deg);
 }
