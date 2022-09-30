@@ -279,10 +279,58 @@ label
 .project
 {
     height: 80px;
-    width: 100px;
-    background-color: #F5F5F5;
+    width: 120px;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px -20px 0px #1d1d1dc5;
 }
 
+.project:nth-child(1),
+.project:nth-child(7)
+{
+    background-image: url('assets/nightride.png');
+}
+
+.project:nth-child(2),
+.project:nth-child(8)
+{
+    background-image: url('assets/witcher.png');
+}
+
+.project:nth-child(3),
+.project:nth-child(9)
+{
+    background-image: url('assets/polaroid.png');
+}
+
+.project:nth-child(4),
+.project:nth-child(10)
+{
+    background-image: url('assets/tram.png');
+}
+
+.project:nth-child(5),
+.project:nth-child(11)
+{
+    background-image: url('assets/telemetry.png');
+}
+
+.project:nth-child(6),
+.project:nth-child(12)
+{
+    background-image: url('assets/rails.png');
+}
+
+.label
+{
+    color: #f7f7f7;
+    font-family: share-tech;
+    margin-top: 60px;
+}
 /* -------------------------------------------------------------- */
 
 .outline
