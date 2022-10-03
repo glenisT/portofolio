@@ -612,14 +612,7 @@ label
     }
 
     .description
-{
-    color: #FFFFFF;
-    font-family: share-tech;
-    font-size: 18px;
-    width: 300px;
-    margin-top: -40px;
-    text-align: justify;
-	text-justify:newspaper;
-    line-height: 20px;
-}
+    {
+        width: 300px;
+    }
 }
