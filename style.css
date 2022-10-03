@@ -276,6 +276,11 @@ label
     animation: projectSlider 10s linear infinite;
 }
 
+.projectsGrid:hover
+{
+    animation-play-state: paused;
+}
+
 .project
 {
     height: 80px;
