@@ -259,47 +259,83 @@ label
 {
     height: 80px;
     width: 120px;
-    border-radius: 5px;
-    display: grid;
-    justify-content: center;
+
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.front
+{
+    height: 80px;
+    width: 120px;
+    backface-visibility: hidden;
+}
+
+.front-face
+{
+    height: 80px;
+    width: 120px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     box-shadow: inset 0px -20px 0px #1d1d1dc5;
+    border-radius: 5px;
+    display: grid;
+    justify-content: center;
 }
 
-.project:nth-child(1),
-.project:nth-child(7)
+.back
 {
+    height: 80px;
+    width: 120px;
+    margin-top: -80px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    background-color: #2b5f99;
+    color: #f7f7f7;
+    font-family: share-tech;
+    transform: rotateY(180deg);
+}
+
+.project:hover
+{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.night-ride-img
+{
+    
     background-image: url('assets/nightride.png');
 }
 
-.project:nth-child(2),
-.project:nth-child(8)
+.witcher-img
 {
     background-image: url('assets/witcher.png');
 }
 
-.project:nth-child(3),
-.project:nth-child(9)
+.polaroid-img
 {
     background-image: url('assets/polaroid.png');
 }
 
-.project:nth-child(4),
-.project:nth-child(10)
+.tram-img
 {
     background-image: url('assets/tram.png');
 }
 
-.project:nth-child(5),
-.project:nth-child(11)
+.train-img
 {
     background-image: url('assets/telemetry.png');
 }
 
-.project:nth-child(6),
-.project:nth-child(12)
+.rails-img
 {
     background-image: url('assets/rails.png');
 }
